@@ -1,5 +1,3 @@
-//André e Adriano
-
 package model;
 
 public class Despesa {
@@ -9,7 +7,6 @@ public class Despesa {
     private double valor;
     private String status;
     
-   
     //construtor
     public Despesa (String descricao, double valor, String status) {
 
@@ -32,7 +29,7 @@ public class Despesa {
         return this.valor;
     }
      
-    public void setvalorAlvo(double valor) {
+    public void setValorAlvo(double valor) {
         this.valor = valor;
     }
      
