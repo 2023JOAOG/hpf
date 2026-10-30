@@ -9,6 +9,10 @@ public class Receita {
     private double valor;
     
     //construtor
+    public Receita() {
+        
+    }
+
     public Receita (String origem, double valor){
 
         this.origem = origem;
