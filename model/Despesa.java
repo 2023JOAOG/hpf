@@ -6,8 +6,12 @@ public class Despesa {
     private String descricao;
     private double valor;
     private String status;
-    
+
     //construtor
+    public Despesa() {
+        
+    }
+
     public Despesa (String descricao, double valor, String status) {
 
         this.descricao = descricao;
