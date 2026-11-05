@@ -25,11 +25,11 @@ public class Programa {
         
         if (respostaDeposito == 1) {
             
-          conta_1.setSaldo(conta_1.getSaldo() + receita_1.getValor()); 
-          
+            conta_1.setSaldo(conta_1.getSaldo() + receita_1.getValor()); 
+            System.out.println("Salário adicionado com sucesso!");
+            
         }
         
-        System.out.println("Salário adicionado com sucesso!"); 
         System.out.println("Saldo atual: " + conta_1.getSaldo());
         System.out.println("------------------------------------------");
         System.out.println("Deseja pagar a despesa (" + despesa_1.getDescricao() + ") no valor de R$" + despesa_1.getValor() + "? [1 - Sim / 2 - Não]: ");
@@ -71,7 +71,6 @@ public class Programa {
          
         }
        
-        System.out.println(" "); 
         System.out.println(" "); 
         System.out.println("========================================="); 
         System.out.println("           RELATÓRIO FINANCEIRO"); 
